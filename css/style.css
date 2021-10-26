@@ -211,10 +211,6 @@ li {
   padding: 0 !important;
 }
 
-.bg-gray {
-  background: #fafafa;
-}
-
 .logo {
   display: inline-block;
 }
@@ -2495,10 +2491,6 @@ li {
 
 .about-section .item-holder:hover p {
   color: #ffffff;
-}
-
-.story {
-  padding: 100px 0;
 }
 
 .story img {
