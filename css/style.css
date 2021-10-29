@@ -588,6 +588,7 @@ li {
 
 .hero-slider .content.style h2 {
   font-size: 60px;
+  text-transform: inherit;
 }
 
 @media (max-width: 767px) {
