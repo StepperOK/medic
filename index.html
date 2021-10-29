@@ -26,7 +26,7 @@
 </head>
 
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="90">
     <div class="page-wrapper">
 
         <!--header top-->
@@ -99,12 +99,12 @@
 
                         </li>
                     </ul>
-                    <button class="link-btn btn-style-one" data-toggle="modal" data-target="#exampleModal">Консультация
+                    <!-- <button class="link-btn btn-style-one" data-toggle="modal" data-target="#exampleModal">Консультация -->
 
                         <!-- <a href="#" class="btn-style-one" data-toggle="modal">Консультация</a> -->
-                    </button>
+                    <!-- </button> -->
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    <!-- <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
                         aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog" role="document">
                             <div class="modal-content">
@@ -123,7 +123,7 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                 </div>
             </div>
 
@@ -136,7 +136,7 @@
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
-                            data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                            data-target="#navbar" aria-expanded="false">
                             <span class="sr-only">Навигация</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -144,23 +144,23 @@
                         </button>
                     </div>
                     <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="collapse navbar-collapse" id="navbar">
                         <ul class="nav navbar-nav nav-pills">
                             <li class="nav-item">
                                 <a class="nav-link" href="#index">Главная</a>
                             </li>
                             <li>
-                                <a href="#service">Услуги</a>
+                                <a class="nav-link"  href="#service">Услуги</a>
                             </li>
                             <li>
-                                <a href="service.html">О клиннике</a>
+                                <a class="nav-link" href="#about">О клиннике</a>
                             </li>
                             <li>
-                                <a href="gallery.html">Гелерея</a>
+                                <a class="nav-link" href="#gallery">Гелерея</a>
                             </li>
 
                             <li>
-                                <a href="contact.html">Контакты</a>
+                                <a class="nav-link" href="#contact">Контакты</a>
                             </li>
                         </ul>
                     </div>
@@ -169,9 +169,11 @@
         </section>
         <!-- /.container-fluid -->
         </nav>
-        <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example"
-            tabindex="0">
-            <div class="hero-slider">
+       
+        <a id="index">
+            <h1 style="padding-top: 40px; margin-top: -100px;"></h1>
+        </a>
+            <div class="hero-slider" id="#">
                 <!-- Slider Item -->
                 <div class="slider-item slide1" style="background-image:url(images/slider/slider-bg-1.jpg)" id="#index">
                     <div class="container">
@@ -234,7 +236,10 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <!-- Nav tabs -->
-                                <div class="tabs" id="#service">
+                                <a id="service">
+                                    <h1 style="padding-top: 200px; margin-top: -200px;"></h1>
+                                </a>
+                                <div class="tabs" >
                                     <ul class="nav nav-tabs" role="tablist">
                                         <li role="presentation" class="active">
                                             <a href="#dormitory" data-toggle="tab">Терапия</a>
@@ -502,7 +507,10 @@
             </section>
             <!--End about us area-->
             <!-- Our Story -->
-            <section class="story">
+            <a id="about">
+                <h1 style="padding-top: 200px; margin-top: -200px;"></h1>
+            </a>
+            <section class="story" >
                 <div class="container">
                     <div class="row">
 
@@ -531,7 +539,10 @@
                 </div>
             </section>
             <!--Service Section-->
-            <section class="service-section bg-gray section">
+            <a id="gallery">
+                <h1 style="padding-top: 100px; margin-top: -100px;"></h1>
+            </a>
+            <section class="service-section bg-gray section" >
                 <div class="container">
                     <div class="section-title text-center">
                         <h3>Provided
@@ -613,7 +624,7 @@
         <!--==================================
 =            Contact Form            =
 ===================================-->
-        <section class="section contact">
+        <section class="section contact" id="contact">
             <!-- container start -->
             <div class="container">
                 <div class="row">
@@ -665,7 +676,7 @@
                             </div>
                         </section>
                     </div>
-                </div>
+              
             </div>
     </div>
     <!-- container end -->
