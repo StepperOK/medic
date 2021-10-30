@@ -3127,6 +3127,25 @@ li {
   font-weight: 400;
 }
 
+.social-links {
+float: right;
+}
+
+.fa-vk:before {
+  font-size:27px;
+  margin-right: 15px;
+  color: #5ec5cc
+}
+
+.fa-instagram:before {
+  font-size:30px;
+  color: #5ec5cc
+}
+
+.social-links {
+  display: inline-flex;
+  margin-left: 20px;
+}
 .scroll-to-top {
   position: fixed;
   bottom: 40px;
