@@ -2384,6 +2384,9 @@ li {
   width: 240px;
 }
 
+.fa { margin-top: 14px; 
+  }
+
 .about-section .section-title h3:after {
   position: absolute;
   content: '';
@@ -3313,22 +3316,6 @@ li {
     z-index: 12;
   }
 
-  .navbar-header::before{
-    content: "Пн-Вс - c 9:00 до 19:00";
-    display: inline;
-    color: darkslategrey;
-    padding: 15px;
-  }
-  .navbar-header::after{
-    content: "+7(978)-871-10-50";
-    padding-left: 15px;
-    color: darkslategrey;
-    display: contents;
-    
-  }
-
-
-
   .main-menu .navbar-header .navbar-toggle {
     display: block;
     border: 1px solid #ffffff;
@@ -3539,8 +3526,7 @@ li {
     margin-bottom: 0px !important;
   }
   .header-uper .contact-info .item {
-    margin-left: 0px !important;
-    margin-bottom: 30px !important;
+   float: left !important;
   }
   .service-tab-section .tab-list-column .tab-list,
   .service-tab-section .tab-content .inner-box {
@@ -3578,7 +3564,7 @@ li {
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-   display: none;
+   /* display: none; */
   }
 }
 
