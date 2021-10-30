@@ -316,7 +316,7 @@ li {
 
 .header-uper {
   padding-top: 0px;
-  position: fixed;
+  /* position: fixed; */
   width: 100%;
   z-index: 1000;
 }
@@ -3299,6 +3299,23 @@ li {
     margin-bottom: 40px !important;
   }
 }
+
+@media only screen and (min-width: 854px) {
+.header-uper{
+position: fixed !important;
+}
+
+  }
+  @media only screen and (max-width: 854px) {
+    .slick-dotted.slick-slider{
+      margin-top: 60px !important;
+    }
+  }
+  @media only screen and (min-width: 1199px) {
+    .slick-dotted.slick-slider{
+      margin-top: 60px !important;
+    }
+  }
 
 @media only screen and (max-width: 767px) {
   .main-header .main-menu {
