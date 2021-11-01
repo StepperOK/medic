@@ -370,6 +370,7 @@ li {
   display: inline-block;
   padding-left: 70px;
   margin-right: 40px;
+  vertical-align: top;
 }
 
 .header-uper .contact-info .item .icon-box {
@@ -3132,8 +3133,7 @@ float: right;
 }
 
 .fa-vk:before {
-  font-size:27px;
-  margin-right: 15px;
+  font-size:25px;
   color: #5ec5cc
 }
 
@@ -3145,6 +3145,7 @@ float: right;
 .social-links {
   display: inline-flex;
   margin-left: 20px;
+  display: inherit;
 }
 .scroll-to-top {
   position: fixed;
@@ -3330,9 +3331,14 @@ position: fixed !important;
       margin-top: 60px !important;
     }
   }
+  @media only screen and (min-width: 854px) {
+    .slick-dotted.slick-slider{
+      margin-top: 300px !important;
+    }
+  }
   @media only screen and (min-width: 1199px) {
     .slick-dotted.slick-slider{
-      margin-top: 60px !important;
+      margin-top: 200px !important;
     }
   }
 
